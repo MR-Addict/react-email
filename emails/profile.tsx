@@ -24,13 +24,15 @@ export default function Email() {
           </Section>
           <Hr style={hr} />
           <Section>
+            <Text style={paragraph}>Hello my friend.</Text>
             <Text style={paragraph}>
-              大家好，我是南京工业大学一名在校本科生。这是一个简单的自我介绍。我喜欢电子、网页设计和Linux。我自认为我个人有些完美主义，只要是我认可的事我总会花时间把事情做好。
+              My name is Cael, and I'm a undergraduate student from Njtech University. I love computer science, web
+              develoment and microchips.
             </Text>
           </Section>
           <Hr style={hr} />
           <Section>
-            <Text style={paragraph}>下面是我的个人主页，欢迎大家访问留言。</Text>
+            <Text style={paragraph}>Below is my personal website, welcome to have a visit and leave your comment.</Text>
             <Link href='https://mraddict.one' style={link}>
               https://mraddict.one
             </Link>
