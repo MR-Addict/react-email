@@ -18,11 +18,14 @@ export default function Email() {
         <Container style={container}>
           <Section>
             <Img src='https://avatars.githubusercontent.com/u/75357598' alt='avatar' style={avatar} />
+            <Container style={username}>
+              <strong>MR-Addict</strong>
+            </Container>
           </Section>
           <Hr style={hr} />
           <Section>
             <Text style={paragraph}>
-              大家好，我是南京工业大学一名在校本科生。这是一个简单的自我介绍。我喜欢电子、网页设计和Linux。我自认为我个人有些完美主义，凡是我认可的事情总会花时间把事情做到最好。
+              大家好，我是南京工业大学一名在校本科生。这是一个简单的自我介绍。我喜欢电子、网页设计和Linux。我自认为我个人有些完美主义，只要是我认可的事我总会花时间把事情做好。
             </Text>
           </Section>
           <Hr style={hr} />
@@ -56,6 +59,15 @@ const avatar = {
   height: "130px",
   margin: "20px auto",
   borderRadius: "50%",
+};
+
+const username = {
+  color: "#000",
+  fontSize: "23px",
+  margin: "0 auto",
+  lineHeight: "24px",
+  width: "fit-content",
+  fontFamily: "BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu'",
 };
 
 const paragraph = {
